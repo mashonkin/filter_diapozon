@@ -1,0 +1,38 @@
+.field-diapozon{
+  height: 10px;
+  line-height: 10px;
+  width: 100%;
+  border: 1px solid #b8b8b8;
+  background: #fff;
+  border-radius: 3px;
+  position: relative;
+  margin: 20px 0;
+  span{
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #b8b8b8;
+    margin-top: -7.5px;
+    margin-left: -7.5px;
+    background: #fff;
+    border-radius: 3px;
+    left: 0;
+    background-image: url(../../img/body/filter_begunok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 20;
+  }
+  .shkala{
+    background: #399aba;
+    background: -moz-linear-gradient(left, #399aba 0%, #62c5e6 100%);
+    background: -webkit-linear-gradient(left, #399aba 0%, #62c5e6 100%);
+    background: linear-gradient(to right, #399aba 0%, #62c5e6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#399aba', endColorstr='#62c5e6', GradientType=1);
+    height: 8px;
+    position: absolute;
+    top: 0;
+    z-index: 19;
+  }
+}
